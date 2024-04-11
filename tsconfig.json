@@ -1,7 +1,6 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "checkJs": false,
     "baseUrl": "C:/Users/pedro/Desktop/minimalist-portfolio-json/minimalist-portfolio",
     "paths": {
       "@/*": [
