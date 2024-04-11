@@ -2,11 +2,11 @@
 import { basics } from "@/cv.json";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import Github from "@/icons/Github.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import Toaster from "../Toaster";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -44,17 +44,7 @@ const linkedUrl = linkedInfo?.url;
             </a>
           )
         }
-        {
-          phone && (
-            <div
-              id="anchor_phone"
-              class="anchor"
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-            >
-              <Phone />
-            </div>
-          )
-        }
+        {phone && <Toaster client:load />}
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];

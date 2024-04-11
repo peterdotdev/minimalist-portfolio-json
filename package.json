@@ -11,9 +11,15 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
+    "@astrojs/react": "^3.3.0",
+    "@nanostores/react": "^0.7.2",
+    "@types/react": "^18.2.75",
+    "@types/react-dom": "^18.2.24",
     "astro": "^4.5.18",
+    "nanostores": "^0.10.3",
     "ninja-keys": "^1.2.2",
-    "sonner": "^1.4.41",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.15.6"
