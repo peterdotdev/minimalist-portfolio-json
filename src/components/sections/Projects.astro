@@ -24,9 +24,12 @@ import { projects } from "@/cv.json";
                   <p>{description}</p>
                 </header>
                 <footer>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>;
-                  })}
+                  {
+                    // @ts-ignore
+                    highlights.map((highlight) => {
+                      return <span>{highlight}</span>;
+                    })
+                  }
                 </footer>
               </article>
             </a>
