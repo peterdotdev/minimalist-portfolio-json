@@ -6,7 +6,7 @@
       "email": "pedroperovichvelozo@gmail.com",
       "phone": "(+54 9 11) 6923-6281",
       "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "summary": "Me apasiona el mundo del desarrollo y estoy en busca de nuevos desafíos.",
       "location": {
         "address": "Calle false 123",
         "postalCode": "1636",
@@ -29,22 +29,12 @@
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
+      "name": "ARSAT",
+      "position": "Desarrollador Front-end",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
+      "startDate": "2021-12-06",
       "endDate": null,
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }, {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "summary": "Más de 2 años en el equipo de MICA (Mercado de Industrias Culturales Argentinas), más de 6 meses en un proyecto de 0 a MVP, actualmente iniciando en el equipo del nuevo portal de empleados de la empresa. Siempre trabajando con metodologías ágiles y de forma orientada a los objetivos.",
       "highlights": [
         "Started the company"
       ]
@@ -61,12 +51,23 @@
       ]
     }],
     "education": [{
-      "institution": "University",
+      "institution": "Digital House",
       "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "area": "Certified Tech Developer",
+      "studyType": "Certified Tech Developer",
+      "startDate": "2021-05-01",
+      "endDate": "2023-12-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }, {
+      "institution": "Universidad de Buenos Aires",
+      "url": "https://institution.com/",
+      "area": "Licenciatura, Actuario en Administración",
+      "studyType": "Licenciatura, Actuario en Administración",
+      "startDate": "2009-03-01",
+      "endDate": "2019-12-01",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -92,7 +93,63 @@
       "summary": "Description…"
     }],
     "skills": [{
-      "name": "Web Development",
+      "name": "Javascript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Typescript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "React",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Next.js",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Astro",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Tailwind",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Material UI",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }, {
+      "name": "Node.js",
       "level": "Master",
       "keywords": [
         "HTML",
@@ -116,30 +173,30 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "Project",
+      "name": "Consultly",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "A platform to build and grow your online business",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Side Project", "Typescript", "Next.js", "Vite", "GraphQL", "WebRTC"
       ],
       "url": "https://project.com/"
     },{
-      "name": "Project",
+      "name": "Monito",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Browser extension that records everything happening in an application.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Side Project", "Typescript", "Next.js", "Browser Extension"
       ],
       "url": "https://project.com/"
     }, {
-      "name": "Project",
+      "name": "Jarocki.me",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "My personal website and blog. Built with Next.js and Notion API.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Side Project", "Next.js", "MDX"
       ],
       "url": "https://project.com/"
     }]
