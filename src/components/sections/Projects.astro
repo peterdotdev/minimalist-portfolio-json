@@ -10,19 +10,24 @@ import { projects } from "@/cv.json";
       projects.map(({ url, description, highlights, name }) => {
         return (
           <li>
-            <article>
-              <header>
-                <a href={url} title={`Ver el proyecto ${name}`}>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={`Ver el proyecto ${name}`}
+            >
+              <article>
+                <header>
                   <h3>{name}</h3>
-                </a>
-                <p>{description}</p>
-              </header>
-              <footer>
-                {highlights.map((highlight) => {
-                  return <span>{highlight}</span>;
-                })}
-              </footer>
-            </article>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>;
+                  })}
+                </footer>
+              </article>
+            </a>
           </li>
         );
       })
@@ -54,6 +59,7 @@ import { projects } from "@/cv.json";
 
   article h3 {
     padding-bottom: 4px;
+    color: #111;
   }
 
   article a {
@@ -61,7 +67,7 @@ import { projects } from "@/cv.json";
   }
 
   article a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   article p {
