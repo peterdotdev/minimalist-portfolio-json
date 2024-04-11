@@ -46,14 +46,13 @@ const linkedUrl = linkedInfo?.url;
         }
         {
           phone && (
-            <a
-              href={`tel:${phone}`}
+            <div
+              id="anchor_phone"
+              class="anchor"
               title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <Phone />
-            </a>
+            </div>
           )
         }
         {
@@ -76,6 +75,15 @@ const linkedUrl = linkedInfo?.url;
     <figure><img src={image} alt={name} /></figure>
   </div>
 </Section>
+
+<script>
+  function handleClick() {
+    window.navigator.clipboard.writeText("005491169236281");
+  }
+  document
+    ?.getElementById("anchor_phone")
+    ?.addEventListener("click", handleClick);
+</script>
 
 <style>
   .container {
@@ -147,6 +155,31 @@ const linkedUrl = linkedInfo?.url;
   }
 
   footer a:visited {
+    text-decoration: none;
+  }
+
+  .anchor {
+    color: #777;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .anchor:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+    text-decoration: none;
+  }
+
+  .anchor:visited {
     text-decoration: none;
   }
 
