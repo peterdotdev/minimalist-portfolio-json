@@ -8,6 +8,7 @@ import { skills } from "@/cv.json";
 <Section title="Skills">
   <ul class="no-print">
     {
+      // @ts-ignore
       skills.map(({ name }) => (
         <li>
           <span>{name}</span>

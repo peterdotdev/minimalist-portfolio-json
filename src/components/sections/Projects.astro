@@ -8,6 +8,7 @@ import { projects } from "@/cv.json";
 <Section title="Proyectos">
   <ul>
     {
+      // @ts-ignore
       projects.map(({ url, description, highlights, name }) => {
         return (
           <li>

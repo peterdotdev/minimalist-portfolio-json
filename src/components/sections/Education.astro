@@ -8,6 +8,7 @@ import { education } from "@/cv.json";
 <Section title="Educación">
   <ul>
     {
+      // @ts-ignore
       education.map(({ institution, startDate, endDate, area }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =

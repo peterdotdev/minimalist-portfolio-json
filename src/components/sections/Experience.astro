@@ -8,6 +8,7 @@ import { work } from "@/cv.json";
 <Section title="Experiencia Laboral">
   <ul>
     {
+      // @ts-ignore
       work.map(
         ({ name, startDate, endDate, position, summary, highlights }) => {
           const startYear = new Date(startDate).getFullYear();
