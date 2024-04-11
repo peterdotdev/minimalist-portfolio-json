@@ -14,5 +14,6 @@
     "astro": "^4.5.18",
     "ninja-keys": "^1.2.2",
     "typescript": "^5.4.5"
-  }
+  },
+  "packageManager": "pnpm@8.15.6"
 }
