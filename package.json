@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.5.10",
     "astro": "^4.5.18",
     "ninja-keys": "^1.2.2",
+    "sonner": "^1.4.41",
     "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.15.6"
