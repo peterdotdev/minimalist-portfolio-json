@@ -55,7 +55,7 @@ const linkedUrl = linkedInfo?.url;
         {phone && <Toaster client:load />}
         {
           // @ts-ignore
-          profiles.map(({ network, url, username }) => {
+          profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network];
             return (
               <a

@@ -10,6 +10,7 @@ import { work } from "@/cv.json";
     {
       // @ts-ignore
       work.map(
+        // @ts-ignore
         ({ name, startDate, endDate, position, summary, highlights }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
