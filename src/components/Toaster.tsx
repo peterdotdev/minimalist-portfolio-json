@@ -36,7 +36,7 @@ export default function Toaster() {
           isToastOpen.set(!$isToastOpen);
           setTimeout(() => {
             isToastOpen.set(false);
-          }, [4000]);
+          }, 4000);
         }
       }}
       title="Llamar por teléfono a Pedro Perovich al número 005491169236281"

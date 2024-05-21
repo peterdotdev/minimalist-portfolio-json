@@ -173,31 +173,31 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "Consultly",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "A platform to build and grow your online business",
+      "name": "GifExpertApp",
+      "startDate": "2021-11-01",
+      "endDate": "2021-11-30",
+      "description": "Aplicación web para buscar todo tipo de gifs.",
       "highlights": [
-        "Side Project", "Typescript", "Next.js", "Vite", "GraphQL", "WebRTC"
+        "Side Project", "React", "Giphy API"
       ],
-      "url": "https://project.com/"
+      "url": "https://peterdotdev.github.io/react-gifexpertapp/"
     },{
-      "name": "Monito",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Browser extension that records everything happening in an application.",
+      "name": "myBookLibrary",
+      "startDate": "2021-11-01",
+      "endDate": "2021-11-30",
+      "description": "Simple interfaz para llevar registro de tus libros leídos.",
       "highlights": [
-        "Side Project", "Typescript", "Next.js", "Browser Extension"
+        "Side Project", "Vanilla Javascript", "Bootstrap"
       ],
-      "url": "https://project.com/"
+      "url": "https://peterdotdev.github.io/myBookLibrary/"
     }, {
-      "name": "Jarocki.me",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "My personal website and blog. Built with Next.js and Notion API.",
+      "name": "scrapingQuotes",
+      "startDate": "2021-11-01",
+      "endDate": "2021-11-30",
+      "description": "Scraper que realice a modo de prepararme para un challenge que realice para Scale.",
       "highlights": [
-        "Side Project", "Next.js", "MDX"
+        "Side Project", "NodeJS", "Puppeteer"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/peterdotdev/scrapingQuotes"
     }]
   }
