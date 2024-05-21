@@ -14,7 +14,7 @@ import Github from "src/icons/Github.astro";
 // @ts-ignore
 import WorldMap from "src/icons/WorldMap.astro";
 // @ts-ignore
-import Toaster from "../Toaster";
+// import Toaster from "../Toaster";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -52,7 +52,7 @@ const linkedUrl = linkedInfo?.url;
             </a>
           )
         }
-        {phone && <Toaster client:load />}
+        <!-- {phone && <Toaster client:load />} -->
         {
           // @ts-ignore
           profiles.map(({ network, url }) => {
