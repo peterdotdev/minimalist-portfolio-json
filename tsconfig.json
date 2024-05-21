@@ -1,10 +1,8 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "strict": true,
     "baseUrl": "C:/Users/pedro/Desktop/minimalist-portfolio-json/minimalist-portfolio",
     "jsx": "react-jsx",
-    "jsxImportSource": "react",
-  },
-  "include": ["src"]
+    "jsxImportSource": "react"
+  }
 }
